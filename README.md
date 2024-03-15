@@ -26,5 +26,6 @@ _Review of the order history and documentation of any previous operations that h
 
 # Some ideas that we will need in the development process
 String try_1="440-02-4534";
-System.out.println(try_1.matches("\\d{3}-\\d{2}-\\d{4}"));
-    Here \\d represents a single digit, and \\d{3} represents three digits.
+_ System.out.println(try_1.matches("\\d{3}-\\d{2}-\\d{4}"));
+_ Here \\d represents a single digit, and \\d{3} represents three digits.
+_ The regular expression [$+#] specifies a pattern that matches $, +, or #.
