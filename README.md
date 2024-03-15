@@ -24,3 +24,7 @@ _Control over the consumed spare parts.
 _Preventing the loss of spare parts and managing them efficiently.
 _Review of the order history and documentation of any previous operations that have already occurred on the order.
 
+# Some ideas that we will need in the development process
+String try_1="440-02-4534";
+System.out.println(try_1.matches("\\d{3}-\\d{2}-\\d{4}"));
+    Here \\d represents a single digit, and \\d{3} represents three digits.
